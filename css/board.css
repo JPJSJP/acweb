@@ -1,0 +1,207 @@
+/*menu bar*/
+header{
+	margin-left : 0;
+	border : solid black 1px;
+	background-color : rgb(23,46,107);
+	width : 1570px;	
+	
+}
+header #outlink{
+	list-style : none;
+	margin-top : 0px;
+	margin-bottom : 5px;
+	float : right;
+	width : 97.40%;
+	border : solid black 1px;
+	background-color : #0A1942;
+	
+}
+
+
+ul#outlink li{
+	margin-left : 15px;
+	float : right;
+	position : relative;
+}
+
+ul#outlink li a{
+	text-decoration : none;
+	color : white;
+}
+
+#navi{
+	height: 50px;
+	float : right;
+	
+}
+
+#navi a{
+	text-decoration:none;
+	text-align:center;
+	color : white;
+}
+
+#navi ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	
+}
+
+#navi .menu{
+	font-size:12px;
+	font-weight:bold;
+	position : absoulte;
+	
+}
+
+#navi .menu li{
+	position:relative;
+	margin: 0 5px;
+	float: left;
+	width:130px;
+	height:32px;
+	border:1px solid #777;
+}
+
+
+#navi .menu li a{
+	display:block;
+	padding:10px;
+}
+
+#navi .sub{
+	display:none;
+	position:absolute;
+	top:33px;
+	left:-1px;
+} 
+
+#navi .sub li{
+	display:block;
+	width:130px;
+	border-top:0 none;
+	margin:0;
+	clear:both;
+}
+
+#navi .sub li a{
+	display:block;
+	padding:10px;
+	color : white;
+	
+
+}
+#navi .sub li{
+	background : rgb(23,46,107);
+}
+
+
+#navi .menu li a:hover{
+	color : yellow;
+}
+
+
+
+#navi .sub li .sub{
+	top:-1px;
+	left:200px;
+}
+
+#navi .sub li .sub li:first-child{
+	border:1px solid #777
+}
+
+/*wrapper 부분 layout*/
+div#wrapper{
+	
+	width : 1000px;
+	height  : 1000px;
+	margin-top: 50px;
+	margin-bottom : 0;
+	margin-left : auto;
+	margin-right : auto;
+}
+/*side bar*/
+nav#sideBar{
+	margin-right : 20px;
+	width : 250px;
+	height : 300px;
+	float : left;
+}
+
+#sideBar ul{
+	padding-left:0;	
+	list-style : none;
+	margin-top: 0;
+	float : left;
+}
+
+
+#sideBar li{
+	width : 250px;
+	height : 50px;
+	border-bottom : solid rgb(83,129,188) 1px;
+	float : left;
+	
+}
+	
+#sideBar li a{
+	float : left;
+	text-decoration : none;
+	color : black;
+	margin-left : 18px;
+	margin-top : 10px;
+	
+}
+#sideBar a.board{
+	font-weight: bold;
+	color : #0A1942;
+}
+#sideBar a.menu:hover{
+	color: rgb(23,46,107);
+	font-weight : bold;
+	
+}
+
+#sideBar li:first-child{
+	background-color: rgb(23,46,107);
+	height : 50px;
+	
+}
+
+#sideBar li:first-child a{
+	font-size : 25px;
+	color : white;
+	margin-top : 7px;
+	margin-left : 58px;
+}
+
+/*글 내용*/
+
+#wrapper section#contentBox{
+	border : solid black 1px;
+	width: 728px;
+	height : 300px;
+	float : left;
+}
+
+
+/*footer */
+footer{
+	clear: both;
+	width: 100%;
+	height:100px;
+	background-color : rgb(74,75,77);
+	word-wrap:break-word;
+}
+footer img{
+	float : left;
+	margin-left : 1100px;
+	margin-right : 20px;
+}
+footer p{
+	color : rgb(172,172,172);
+	margin-top : 30px;
+	float :left;
+}
