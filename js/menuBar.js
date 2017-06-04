@@ -29,7 +29,7 @@ function menu() {
 
 	$(function(){
 		$('.bxslider').bxSlider({
-			auto: true
+			auto: true,
 		});
 	});
 
