@@ -196,8 +196,8 @@ nav#sideBar{
 	float : left;
 }
 #box1 img{
-	width : 250px;
-	height : 400px;
+	width : 290px;
+	height : 290px;
 }
 /*연혁*/
 #box2{
@@ -220,7 +220,7 @@ hr{
 
 #box3{
 	font-family: 'KoPub Batang', serif;
-	clear :both;
+	clear : both;
 	word-wrap:break-word;
 	margin-bottom: 70px;
 	line-height : 160%;
