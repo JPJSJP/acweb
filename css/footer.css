@@ -1,0 +1,33 @@
+
+
+/*footer */
+footer{
+	clear: both;
+	width: 100%;
+	height:100px;
+	background-color : rgb(74,75,77);
+	word-wrap:break-word;
+}
+
+
+footer div.footer_div{
+	float:right;
+	width : 500px;
+}
+
+
+footer div.footer_div img{
+	float:left;
+}
+
+footer div.footer_div_text{
+	float:right;
+	margin-top:25px;
+	margin-right: 80px;
+}
+
+
+footer div.footer_div_text span{
+	display : block;
+	color : rgb(172,172,172);
+}
